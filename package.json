@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "babel-loader": "^7.1.5",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8"
+  },
+  "scripts": {
+    "babel": "babel --presets es2015 main.js -o build/main.bundle.js",
+    "start": "http-server",
+    "webpack": "webpack -d"
+  }
+}
